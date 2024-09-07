@@ -1,7 +1,7 @@
-This script provides a method for analyzing and visualizing the distribution of symptoms
+#This script provides a method for analyzing and visualizing the distribution of symptoms
 
-import numpy as np
-from matplotlib import pyplot as plt
+#import numpy as np
+#from matplotlib import pyplot as plt
 
 def data_analysis(df, column_name, color='lightblue', text_height=0.02, text_width=0.05):
     counts = df[column_name].value_counts().values 
