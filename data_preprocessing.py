@@ -1,9 +1,9 @@
-This script handles:
+#This script handles:
 
-Loading the dataset.
-Checking for missing values both column-wise and row-wise.
-Handling missing data using SimpleImputer with a strategy of mean imputation.
-Label encoding the target variable (prognosis).
+#Loading the dataset.
+#Checking for missing values both column-wise and row-wise.
+#Handling missing data using SimpleImputer with a strategy of mean imputation.
+#Label encoding the target variable (prognosis).
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
