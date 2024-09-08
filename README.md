@@ -19,4 +19,4 @@ Training and evaluation using accuracy metrics.
 Validation:
 
 Split data into training, validation, and testing sets.
-Model evaluation using accuracy score to assess the performance of different classifiers.
+Model evaluation using accuracy score to assess the performance of different classifiers
