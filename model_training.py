@@ -6,7 +6,7 @@ and it evaluates the model using accuracy scores.
   from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 from sklearn.metrics import accuracy_score
 
-# Train RandomForest Model
+
 model_rf = RandomForestClassifier(n_estimators=100, random_state=42)
 model_rf.fit(X_train_imputed, y_train)
 y_pred_rf = model_rf.predict(X_test_imputed)
