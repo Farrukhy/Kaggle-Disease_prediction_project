@@ -13,7 +13,7 @@ y_pred_rf = model_rf.predict(X_test_imputed)
 accuracy_rf = accuracy_score(y_test, y_pred_rf)
 print(f'Random Forest Accuracy: {accuracy_rf:.4f}')
 
-# Train Gradient Boosting Model
+
 classifier_gb = GradientBoostingClassifier(n_estimators=100)
 classifier_gb.fit(X_train_imputed, y_train)
 y_pred_gb = classifier_gb.predict(X_test_imputed)
